@@ -1,7 +1,7 @@
-
-
 .all-color {
     background-color: black;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
 }
 
 .cen {
@@ -10,14 +10,13 @@
     margin-right: 300px;
     width: 60%; 
     border-radius: 50% ;
+    margin-top: 10px;
 }
 
 .descriptionColor {
     background: black;
-    
     margin-bottom: 200px;
     margin-top: 500px;
-
 
 }
 
@@ -35,17 +34,19 @@
 
 
 .skills-section {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,9,121,0.6979166666666667) 32%, rgba(0,212,255,1) 100%);}
-
+    background-color: #E0E0E2;
 /* .skills-section:hover {
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,9,121,0.6979166666666667) 32%, rgba(0,212,255,1) 100%);
 } */
-
+}
  .pmove {
     padding-left: 300px;
  }
+.a-move-margin {
+    margin-left: 300px;
+}
+
 
  .text-skills {
     text-align: center;
@@ -69,7 +70,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,9,121,0.697916666
     background-color: black;
     width: 100%;
 } 
-
+.navbar-dark {
+    color: black;
+}
 .animations {
     margin-top: 300px;
 }
@@ -78,7 +81,36 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,9,121,0.697916666
     background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,9,121,0.6979166666666667) 32%, rgba(0,212,255,1) 100%);
 }
 
- .active12 {
-    
+ .color-change {
+    background-color: mediumslateblue;	
+    color: white;
 } 
 
+.color-change-plata {
+    background-color: #C9CAD9;
+    color: black;
+}
+.mover { 
+    background-color: mediumslateblue;
+    color: black;
+}
+
+.navbar-dark .navbar-brand {
+    color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+     color:black;
+ }
+
+ .btn-color {
+    background-color: mediumslateblue;
+    border: 1px 1px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: .25rem;
+    color: white;
+ }
